@@ -1,0 +1,10 @@
+<p>{{ text }}</p>
+
+<button (click)="changeText()">Zmień</button>
+
+<div *ngIf="showTextarea">
+  <p>Textarea</p>
+  <textarea></textarea>
+</div>
+
+<ng-content></ng-content>
